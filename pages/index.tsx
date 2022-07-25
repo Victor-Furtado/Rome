@@ -18,7 +18,7 @@ const Home: NextPage = () => {
         pavimentadas que ligavam o Império tinham a cidade Imperial como destino final.
         Grandes batalhas, intrigas na corte e combates de vida ou morte na arena esperam por você no maior império que o mundo já conheceu.
       </Text>
-      <Image sx={(theme) => ({ filter: '' })} src='/images/Rome.png' />
+      <Image sx={(theme) => ({ filter: '' })} alt='Arte de Roma' src='/images/Rome.png' />
     </Stack>
   );
 }

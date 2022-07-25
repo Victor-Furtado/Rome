@@ -41,7 +41,7 @@ export const Layout: NextPage<IProps> = ({ children }) => {
                     <Navbar.Section grow mt="xs" style={{ overflow: 'auto' }}>
                         <NavList>
                             <NavItem href='/'>INTRODUÇÃO</NavItem>
-                            <NavItem href='/linha-do-tempo'>LINHA DO TEMPO</NavItem>
+                            <NavItem href='/cronologia'>LINHA DO TEMPO</NavItem>
                             <NavItem href='/legislacao'>CÓDIGO DE LEIS</NavItem>
                             <NavItem href='/sociedade'>SOCIEDADE ROMANA</NavItem>
                             <NavItem href='/outros-povos'>OUTROS POVOS</NavItem>
