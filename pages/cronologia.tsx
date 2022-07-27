@@ -1,7 +1,7 @@
 import { Image, Space, Stack, Text, Timeline, Title } from '@mantine/core';
 import { NextPage } from 'next';
 
-const Cronologia: NextPage = () => {
+const Page: NextPage = () => {
   return (
     <div style={{ display: 'flex', gap: 32 }}>
       <Stack style={{ overflow: 'auto', height: '80vh', paddingRight: 16 }}>
@@ -164,4 +164,4 @@ const Cronologia: NextPage = () => {
   );
 }
 
-export default Cronologia
+export default Page
