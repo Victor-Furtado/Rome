@@ -6,7 +6,7 @@ const Page: NextPage = () => {
         <Stack>
             <Title order={1}>O império de Jade</Title>
             <div style={{ display: 'flex', gap: 8, alignItems: 'center' }}>
-                <Image src='/images/CHINA.png' width={200} />
+                <Image alt='China' src='/images/CHINA.png' width={200} />
                 <Stack>
                     <Text>
                         Com um terço da população do planeta e mais de 6000 anos de história
@@ -48,7 +48,7 @@ const Page: NextPage = () => {
                         espontânea das pessoas e seus talentos.
                     </Text>
                 </Stack>
-                <Image src='/images/India.png' width={200} />
+                <Image alt='india' src='/images/India.png' width={200} />
             </div>
         </Stack>
     );

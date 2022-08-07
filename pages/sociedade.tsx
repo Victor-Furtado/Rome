@@ -14,7 +14,7 @@ const Page: NextPage = () => {
                 que ligam o Império tem a cidade Imperial
                 como destino.
             </Text>
-            <Image src='/images/Rome2.png' />
+            <Image alt='' src='/images/Rome2.png' />
             <Title order={3}>O povo romano</Title>
             <Text>
                 Os cidadãos de Roma eram divididos em várias
