@@ -20,10 +20,10 @@ const Page: NextPage = () => {
                         resta apenas os rituais comunitários para colheita e fertilidade dos animais.
                     </Text>
                     <Text>
-                        "Povos bárbaros podem vir até as portas do castelo, mas eles jamais deixam o território.
+                        &quot;Povos bárbaros podem vir até as portas do castelo, mas eles jamais deixam o território.
                         A cultura superior absorve qualquer um que com ela se encontre, transformando invasores
                         em cidadãos e sua terra natal em provicias. Talvez não tenhamos o rigor militar de Roma
-                        mas o senso de propriedade e honra permeia nossa cultura. Esse é o Império de Jade."
+                        mas o senso de propriedade e honra permeia nossa cultura. Esse é o Império de Jade.&quot;
                     </Text>
 
                     <Text align='right'>

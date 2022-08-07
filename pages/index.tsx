@@ -14,7 +14,7 @@ const Home: NextPage = () => {
       </Text>
       <Text>
         Roma era o nome tanto do império quanto da cidade que o gerou. Para a maioria de seus cidadãos os
-        dois eram a mesma coisa. 'Todos os caminhos levam a Roma" era uma verdade literal; as inúmeras vias
+        dois eram a mesma coisa. &quot;Todos os caminhos levam a Roma&quot; era uma verdade literal; as inúmeras vias
         pavimentadas que ligavam o Império tinham a cidade Imperial como destino final.
         Grandes batalhas, intrigas na corte e combates de vida ou morte na arena esperam por você no maior império que o mundo já conheceu.
       </Text>

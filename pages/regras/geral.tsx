@@ -49,7 +49,7 @@ export const Tab: NextPage = () => {
             <Title order={3}>Testes de Reação</Title>
             <Text>
                 Um “teste de Reação” é uma jogada feita pelo Mestre para determinar
-                qual será 'a reação de um PdM (Personagem do Mestre) diante do personagem.
+                qual será a reação de um PdM (Personagem do Mestre) diante do personagem.
                 Essa jogada será sempre opcional, pois o Mestre pode pré-determinar essas
                 reações. No entanto, pelo menos de vez em quando, é mais divertido deixar
                 que os dados decidam.

@@ -41,7 +41,7 @@ export const Tab: NextPage = () => {
             </Text>
             <Accordion variant="filled" chevronPosition="left">
                 <Accordion.Item value="ac">
-                    <Accordion.Control>ATAQUES "COMUNS"</Accordion.Control>
+                    <Accordion.Control>ATAQUES &quot;COMUNS&quot;</Accordion.Control>
                     <Accordion.Panel>
                         <Stack>
                             <Text>Atacar um alvo (ao alcance) desarmado ou com uma arma pronta (-4 para ataques com arma de mão inábil sem Ambidestre, Treinado por um Mestre/Mestre de Armas Etc.)</Text>

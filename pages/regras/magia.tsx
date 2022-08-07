@@ -110,7 +110,7 @@ export const Tab: NextPage = () => {
                             </thead>
                             <tbody>
                                 {elementarismo.body.map((b, i) => (
-                                    <tr key={i} key={i}>
+                                    <tr key={i}>
                                         <td style={{ width: 84 }}>{b.name}</td>
                                         <td style={{ width: 16 }}>{b.mod}</td>
                                         <td style={{ width: 42 }}>{b.conj}</td>
@@ -207,7 +207,7 @@ export const Tab: NextPage = () => {
             <div style={{ display: 'flex' }}>
                 <Stack style={{ marginRight: 8 }}>
                     <Title order={3}>Concentração</Title>
-                    <Text>Sua concetração é determinada pelo seu nível na perícia 'meditação'. Quanto maior a habilidade, maior sua capacidade de se concentrar.</Text>
+                    <Text>Sua concetração é determinada pelo seu nível na perícia &quot;meditação&quot;. Quanto maior a habilidade, maior sua capacidade de se concentrar.</Text>
                     <Text>Este período pressupõe que o mago esteja relaxado e livre de interferências. Se ele estiver distraído por algo, ele deve rolar sua “meditação” para evitar perder o controle da magia. Se ele se distrair repetidamente, ele deve rolar com uma penalidade cumulativa apropriada.</Text>
                 </Stack>
                 <Table captionSide='bottom' highlightOnHover>
