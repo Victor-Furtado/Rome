@@ -1,4 +1,4 @@
-import { Accordion, List, Stack, Table, Text, Title } from '@mantine/core';
+import { Accordion, Stack, Table, Text, Title } from '@mantine/core';
 import { NextPage } from 'next';
 
 export const Tab: NextPage = () => {
@@ -57,12 +57,12 @@ export const Tab: NextPage = () => {
                         <Table style={{ overflowX: 'auto' }} captionSide='bottom' highlightOnHover>
                             <thead style={{ backgroundColor: 'black' }}>
                                 {alquimia.head.map(h => (
-                                    <th>{h}</th>
+                                    <th key={h}>{h}</th>
                                 ))}
                             </thead>
                             <tbody>
-                                {alquimia.body.map(b => (
-                                    <tr>
+                                {alquimia.body.map((b, i) => (
+                                    <tr key={i}>
                                         <td style={{ width: 84 }}>{b.name}</td>
                                         <td style={{ width: 16 }}>{b.mod}</td>
                                         <td style={{ width: 42 }}>{b.conj}</td>
@@ -81,12 +81,12 @@ export const Tab: NextPage = () => {
                         <Table style={{ overflowX: 'auto' }} captionSide='bottom' highlightOnHover>
                             <thead style={{ backgroundColor: 'black' }}>
                                 {divinacao.head.map(h => (
-                                    <th>{h}</th>
+                                    <th key={h}>{h}</th>
                                 ))}
                             </thead>
                             <tbody>
-                                {divinacao.body.map(b => (
-                                    <tr>
+                                {divinacao.body.map((b, i) => (
+                                    <tr key={i}>
                                         <td style={{ width: 84 }}>{b.name}</td>
                                         <td style={{ width: 16 }}>{b.mod}</td>
                                         <td style={{ width: 42 }}>{b.conj}</td>
@@ -105,12 +105,12 @@ export const Tab: NextPage = () => {
                         <Table style={{ overflowX: 'auto' }} captionSide='bottom' highlightOnHover>
                             <thead style={{ backgroundColor: 'black' }}>
                                 {elementarismo.head.map(h => (
-                                    <th>{h}</th>
+                                    <th key={h}>{h}</th>
                                 ))}
                             </thead>
                             <tbody>
-                                {elementarismo.body.map(b => (
-                                    <tr>
+                                {elementarismo.body.map((b, i) => (
+                                    <tr key={i} key={i}>
                                         <td style={{ width: 84 }}>{b.name}</td>
                                         <td style={{ width: 16 }}>{b.mod}</td>
                                         <td style={{ width: 42 }}>{b.conj}</td>
@@ -129,12 +129,12 @@ export const Tab: NextPage = () => {
                         <Table style={{ overflowX: 'auto' }} captionSide='bottom' highlightOnHover>
                             <thead style={{ backgroundColor: 'black' }}>
                                 {levitacao.head.map(h => (
-                                    <th>{h}</th>
+                                    <th key={h}>{h}</th>
                                 ))}
                             </thead>
                             <tbody>
-                                {levitacao.body.map(b => (
-                                    <tr>
+                                {levitacao.body.map((b, i) => (
+                                    <tr key={i}>
                                         <td style={{ width: 84 }}>{b.name}</td>
                                         <td style={{ width: 16 }}>{b.mod}</td>
                                         <td style={{ width: 42 }}>{b.conj}</td>
@@ -153,12 +153,12 @@ export const Tab: NextPage = () => {
                         <Table style={{ overflowX: 'auto' }} captionSide='bottom' highlightOnHover>
                             <thead style={{ backgroundColor: 'black' }}>
                                 {cura.head.map(h => (
-                                    <th>{h}</th>
+                                    <th key={h}>{h}</th>
                                 ))}
                             </thead>
                             <tbody>
-                                {cura.body.map(b => (
-                                    <tr>
+                                {cura.body.map((b, i) => (
+                                    <tr key={i}>
                                         <td style={{ width: 84 }}>{b.name}</td>
                                         <td style={{ width: 16 }}>{b.mod}</td>
                                         <td style={{ width: 42 }}>{b.conj}</td>
@@ -181,7 +181,7 @@ export const Tab: NextPage = () => {
                     </thead>
                     <tbody>
                         {conjDur.map((obj, i) => (
-                            <tr>
+                            <tr key={i}>
                                 <td>{i}</td>
                                 <td>{obj.conj}</td>
                                 <td>{obj.dur}</td>
@@ -217,7 +217,7 @@ export const Tab: NextPage = () => {
                     </thead>
                     <tbody>
                         {concentracao.map((t, i) => (
-                            <tr>
+                            <tr key={i}>
                                 <td style={{ textAlign: 'center' }}>{i + 12}</td>
                                 <td style={{ textAlign: 'center' }}>{t}</td>
                             </tr>
@@ -237,7 +237,7 @@ export const Tab: NextPage = () => {
                 </thead>
                 <tbody>
                     {familiaridade.map((f, i) => (
-                        <tr>
+                        <tr key={i}>
                             <td style={{ textAlign: 'center' }}>{f.mod}</td>
                             <td>{f.fam}</td>
                         </tr>

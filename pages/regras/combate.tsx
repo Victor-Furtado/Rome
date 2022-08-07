@@ -54,12 +54,12 @@ export const Tab: NextPage = () => {
                                 </caption>
                                 <thead style={{ backgroundColor: 'black' }}>
                                     {manobrasCC.head.map(h => (
-                                        <th>{h}</th>
+                                        <th key={h}>{h}</th>
                                     ))}
                                 </thead>
                                 <tbody>
                                     {manobrasCC.body.map(b => (
-                                        <tr>
+                                        <tr key={b.name}>
                                             <td>{b.name}</td>
                                             <td>{b.desc}</td>
                                         </tr>
@@ -80,12 +80,12 @@ export const Tab: NextPage = () => {
                                 </caption>
                                 <thead style={{ backgroundColor: 'black' }}>
                                     {manobrasAT.head.map(h => (
-                                        <th>{h}</th>
+                                        <th key={h}>{h}</th>
                                     ))}
                                 </thead>
                                 <tbody>
                                     {manobrasAT.body.map(b => (
-                                        <tr>
+                                        <tr key={b.name}>
                                             <td>{b.name}</td>
                                             <td>{b.desc}</td>
                                         </tr>
@@ -109,12 +109,12 @@ export const Tab: NextPage = () => {
                                 </caption>
                                 <thead style={{ backgroundColor: 'black' }}>
                                     {manobrasMA.head.map(h => (
-                                        <th>{h}</th>
+                                        <th key={h}>{h}</th>
                                     ))}
                                 </thead>
                                 <tbody>
                                     {manobrasMA.body.map(b => (
-                                        <tr>
+                                        <tr key={b.name}>
                                             <td>{b.name}</td>
                                             <td>{b.desc}</td>
                                         </tr>
@@ -137,12 +137,12 @@ export const Tab: NextPage = () => {
                                 </caption>
                                 <thead style={{ backgroundColor: 'black' }}>
                                     {manobrasD.head.map(h => (
-                                        <th>{h}</th>
+                                        <th key={h}>{h}</th>
                                     ))}
                                 </thead>
                                 <tbody>
                                     {manobrasD.body.map(b => (
-                                        <tr>
+                                        <tr key={b.name}>
                                             <td>{b.name}</td>
                                             <td>{b.desc}</td>
                                         </tr>
@@ -159,12 +159,12 @@ export const Tab: NextPage = () => {
                             <Table captionSide='bottom' highlightOnHover>
                                 <thead style={{ backgroundColor: 'black' }}>
                                     {manobrasO.head.map(h => (
-                                        <th>{h}</th>
+                                        <th key={h}>{h}</th>
                                     ))}
                                 </thead>
                                 <tbody>
                                     {manobrasO.body.map(b => (
-                                        <tr>
+                                        <tr key={b.name}>
                                             <td>{b.name}</td>
                                             <td>{b.desc}</td>
                                         </tr>

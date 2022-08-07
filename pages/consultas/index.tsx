@@ -25,7 +25,7 @@ const Page: NextPage = () => {
                     </thead>
                     <tbody>
                         {vant.map(v => (
-                            <tr>
+                            <tr key={v.name}>
                                 <td>{v.name}</td>
                                 <td>{v.effe}</td>
                                 <td>{v.font}</td>
@@ -47,7 +47,7 @@ const Page: NextPage = () => {
                     </thead>
                     <tbody>
                         {desv.map(d => (
-                            <tr>
+                            <tr key={d.name}>
                                 <td>{d.name}</td>
                                 <td>{d.effe}</td>
                                 <td>{d.font}</td>
@@ -69,7 +69,7 @@ const Page: NextPage = () => {
                     </thead>
                     <tbody>
                         {peri.map(p => (
-                            <tr>
+                            <tr key={p.name}>
                                 <td>{p.name}</td>
                                 <td>{p.atri}</td>
                                 <td>{p.difi}</td>
@@ -91,7 +91,7 @@ const Page: NextPage = () => {
                             </thead>
                             <tbody>
                                 {aparencia.map(a => (
-                                    <tr>
+                                    <tr key={a.nome}>
                                         <td>{a.nome}</td>
                                         <td>{a.cost}</td>
                                     </tr>
@@ -109,7 +109,7 @@ const Page: NextPage = () => {
                             </thead>
                             <tbody>
                                 {riqueza.map(a => (
-                                    <tr>
+                                    <tr key={a.nome}>
                                         <td>{a.nome}</td>
                                         <td>{a.cost}</td>
                                     </tr>
