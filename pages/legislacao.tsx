@@ -7,7 +7,7 @@ const Page: NextPage = () => {
             <Title order={1}>DIREITOS DO CIDADÃO</Title>
             <Text>O Cidadão Romano é sustentado por 3 direitos autoevidentes e um dever fundamental</Text>
             <Title order={3}>OS CIDADÃOS ROMANO SÃO EQUANIMES</Title>
-            <Text>Todo cidadão romano está em igual poder politico ou jurídico para com os demais</Text>
+            <Text>Todo cidadão romano está em igual poder politico ou jurídico para com os demais cidadãos</Text>
             <Title order={3}>O CIDADÃO ROMANO É HONESTO</Title>
             <Text>É vedada a toda autoridade questionar a honestidade de um cidadão romano sem provas incontestáveis</Text>
             <Title order={3}>O CIDADÃO ROMANO É INTEGRO</Title>

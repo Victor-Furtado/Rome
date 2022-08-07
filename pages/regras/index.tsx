@@ -3,6 +3,7 @@ import { NextPage } from 'next';
 import { GiMagicSwirl, GiRuleBook, GiSwordClash } from 'react-icons/gi'
 import Combate from './combate';
 import RegrasGerais from './geral';
+import Magia from './magia';
 
 const Page: NextPage = () => {
     return (
@@ -18,7 +19,7 @@ const Page: NextPage = () => {
             </Tabs.Panel>
 
             <Tabs.Panel value="Magic" pt="xs">
-                Magia tab content
+                <Magia />
             </Tabs.Panel>
 
             <Tabs.Panel value="Combat" pt="xs">

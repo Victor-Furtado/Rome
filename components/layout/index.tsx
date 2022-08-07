@@ -46,14 +46,16 @@ export const Layout: NextPage<IProps> = ({ children }) => {
                             <NavItem href='/sociedade'>SOCIEDADE ROMANA</NavItem>
                             <NavItem href='/outros-povos'>OUTROS POVOS</NavItem>
                             <NavItem href='/regras'>REGRAS DE JOGO</NavItem>
-                            <NavItem href='/personagem'>CRIAÇÂO DE PERSONAGEM</NavItem>
                             <NavItem href='/consultas'>CONSULTAS E TABELAS</NavItem>
                             <NavItem href='/galerias'>MAPAS E GALERIA</NavItem>
                         </NavList>
                     </Navbar.Section>
                     <Navbar.Section>
                         <Center>
-                            <Button leftIcon={<FaGithub size={14} />}>
+                            <Button onClick={(e: any) => {
+                                e.preventDefault();
+                                window.location.href = 'https://github.com/Victor-Furtado/Rome';
+                            }} leftIcon={<FaGithub size={14} />}>
                                 Vem fazer parte!
                             </Button>
                         </Center>
